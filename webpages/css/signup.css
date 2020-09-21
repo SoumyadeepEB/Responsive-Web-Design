@@ -1,0 +1,59 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	line-height: 2;
+	font-family: Comic Sans MS;
+	padding: 1em;
+}
+.c1
+{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+}
+.c2
+{
+			
+}
+.info h2
+{
+	text-align: center;
+	font-weight: 900;
+	letter-spacing: 3px;
+}
+.content form
+{
+	display: grid;
+	grid-gap: 10px;
+}
+.content form p
+{
+	margin: 2px;
+}
+label
+{
+	display: block;
+	font-weight: 300;
+	font-size: 16px;
+}
+.req
+{
+	font-weight: 300;
+	color: red;
+}
+.w3-button
+{
+	margin-bottom: 7px;
+}
+input[type=text],input[type=email],input[type=date], textarea
+{
+	border-radius: 10px;
+	padding: 5px;
+	border: 2px inset #cccccc;
+	font-size: 15px;
+	width: 40%;
+}

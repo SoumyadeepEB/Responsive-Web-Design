@@ -1,0 +1,70 @@
+*
+{
+	margin-top: 40px;
+	box-sizing: border-box;
+}
+body
+{
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('../image/sand.jpg');
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: Comic Sans MS;
+}
+#myform
+{
+	border: 3px double;
+	border-radius: 6px;
+	padding-bottom: 35px;
+	min-width: 50%;
+	background-color: white;
+}
+#header
+{
+	margin: initial;
+	text-decoration: overline;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 5px;
+}
+#fbody
+{
+	margin: initial;
+	background-color: #e6e6e6;
+	padding: 5px;
+}
+form
+{
+	display: grid;
+}
+#content
+{
+	border-spacing: 25px;
+	width: 75%;
+}
+label
+{
+	margin-left: 0px;
+	padding: 0px;
+}
+input[type=text],input[type=password]
+{
+	height: 35px;
+	width: 100%;
+	padding: 5px;
+	border-radius: 7px;
+	border: 2px inset;
+}
+#btn
+{
+	position: relative;
+	left: 22%;
+	min-width: 200px;
+}
+.w3-button
+{
+	margin-right: 18px;
+	margin-bottom: 16px;
+	width: 30%;
+}

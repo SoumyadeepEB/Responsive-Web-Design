@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="css/signup.css">
+</head>
+
+<body class="w3-container w3-margin w3-pale-red w3-mobile">
+	<div class="c1">
+	<div class="w3-card-4">
+	<div class="info w3-container w3-red w3-padding-8 w3-round">
+	<h2 class="w3-wide">Registration Form</h2>
+	</div>
+	<fieldset class="w3-sand">
+	<legend>Form Details:</legend>
+	<div class="content">
+	<form name="myForm" action="#" method="post">
+	<p>
+		<label>Full Name: <span class="req">*</span></label>
+		<input type= "text" name= "fname" placeholder= "First Name">
+		<input type= "text" name= "sname" placeholder= "Second Name">
+	</p>
+	<p>
+		<label>Sex: <span class="req">*</span></label>
+		<input type= "radio" name= "sex"> Male
+		<input type= "radio" name= "sex"> Female
+		<input type= "radio" name= "sex"> Others
+	</p>
+	<p>
+		<label>Date of Birth: <span class="req">*</span></label>
+		<input type= "date" name= "dob" placeholder="dd-mm-yyyy" min="01-01-1990" max="31-12-2019">
+	</p>
+	<p>
+		<label>Contact No.: <span class="req">*</span></label>
+		<select>
+			<option>--Select--</option>
+			<option>+91</option>
+			<option>033</option>
+		</select>
+		<input type= "text" name= "con" placeholder= "Mobile/Landline Number">
+	</p>
+	<p>
+		<label>Email ID: <span class="req">*</span></label>
+		<input type= "email" name= "email" placeholder= "eg: abc@xyz.com">
+	</p>
+	<p>
+		<label>Address: <span class="req">*</span></label>
+		<textarea placeholder= "Enter Full Address..."></textarea>
+	</p>
+	<p>
+		<label>Highest Qualification Certificate: <span class="req">*</span></label>
+		<input type= "file" name= "file" accept= "image/jpg, image/png" required>
+	</p>
+	<p>
+		<label>Make Sure your information correct or not, if correct then tick <b>yes</b> otherwise press <b>Cancel</b>: </label>
+		<input type= "checkbox" name= "y"> Yes
+	</p>
+	<p class="btn">
+		<input type= "submit" value= "Confirm" class="w3-green w3-button w3-block w3-round-large w3-margin-bottom">
+		<input type= "reset" value= "Cancel" class="w3-black w3-button w3-block w3-round-large">
+	</p>
+	</form>
+	</div>
+	</fieldset>
+	</div></div>
+</body>
+</html>
